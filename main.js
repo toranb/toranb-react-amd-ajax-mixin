@@ -1,7 +1,7 @@
-define(["promise-mixin", "exports"], function(__dependency1__, __exports__) {
+define(["promise-mixin"], function(dependency) {
     "use strict";
 
-    var PromiseMixin = __dependency1__["default"] || __dependency1__;
+    var PromiseMixin = dependency["default"] || dependency;
 
     var AjaxMixin = (function() {
         var mixin = function() {
@@ -17,5 +17,5 @@ define(["promise-mixin", "exports"], function(__dependency1__, __exports__) {
         return mixin;
     })();
 
-    __exports__["default"] = AjaxMixin;
+    return AjaxMixin;
 });
