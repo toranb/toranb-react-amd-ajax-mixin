@@ -1,4 +1,4 @@
-define(["promise-mixin"], function(PromiseMixin) {
+define("ajax-mixin", ["promise-mixin"], function(PromiseMixin) {
     "use strict";
 
     var AjaxMixin = (function() {
