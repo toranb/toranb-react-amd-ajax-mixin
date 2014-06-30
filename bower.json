@@ -1,0 +1,22 @@
+{
+  "name": "toranb-react-amd-ajax-mixin",
+  "version": "0.2.2",
+  "homepage": "https://github.com/toranb/toranb-react-amd-ajax-mixin",
+  "authors": [
+    "Toran Billups <toranb@gmail.com>"
+  ],
+  "description": "a simple ajax mixin for my amd jspm demo",
+  "main": "main.js",
+  "dependencies": {
+      "toranb-react-amd-promise-mixin": "*"
+  },
+  "keywords": [
+    "ajax"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ]
+}

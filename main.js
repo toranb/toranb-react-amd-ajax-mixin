@@ -1,7 +1,5 @@
-define(["promise-mixin"], function(dependency) {
+define(["promise-mixin"], function(PromiseMixin) {
     "use strict";
-
-    var PromiseMixin = dependency["default"] || dependency;
 
     var AjaxMixin = (function() {
         var mixin = function() {
